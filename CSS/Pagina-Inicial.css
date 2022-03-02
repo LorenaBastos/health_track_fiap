@@ -1,0 +1,21 @@
+body{
+    background-color: #40E0D0;
+    font-family: Arial, Helvetica;
+}
+.navbar{
+    padding-left: 12px;
+}
+.foto{
+    background-color: #C4C4C4;
+    text-align: center;
+}
+.arquivo{
+    font-size: 10px;
+}
+.card-group{
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.card{
+    max-width: 18rem;
+}

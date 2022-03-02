@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica;
+    background-color:#40E0D0;
+}
+.nav{
+    background-color: #f8f9fA;
+}
+h5{
+    color:#40E0D0;
+}
+.foto{
+    background-color: #C4C4C4;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+}
+.forms{
+    border-color: gray;
+}
+.arquivo{
+    font-size: 10px;
+}
+.btn{
+    background-color: #008B8B;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Login - Health Track</title>
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="CSS/Login.css" rel="stylesheet">
+</head>
+
+<body class="container">
+  <div class="grid botao gap-2 row mx-auto m-4">
+    <div><button class="botao btn btn-light ps-2" type="button">
+        <img class="pe-4" src="Imagens/Google-Icon.png">
+        Login com Google
+      </button>
+    </div>
+    <div><button class="botao btn btn-primary ps-2" type="button">
+        <img class="pe-4" src="Imagens/facebook-icon.png">Login com Facebook
+      </button>
+    </div>
+  </div>
+  <div class="container-fluid gap-2 d-grid col-6">
+    <form>
+      <div>
+        <label for="email"></label>
+        <input class="form-control" type="email" placeholder="E-mail" aria-label="E-mail">
+      </div>
+      <div>
+        <label for="pwd"></label>
+        <input class="form-control" type="password" placeholder="Senha" aria-label="Senha">
+      </div>
+      <div>
+        <label><input type="checkbox">Lembrar-me</label>
+      </div>
+      <div class="d-flex justify-content-center m-2">
+        <a href="Página-Inicial.html" target="_blank">
+          <input class="btn btn-light" type="button" value="Entrar">
+        </a>
+      </div>
+    </form>
+  </div>
+  <div class="container grid m-2">
+    <div class="col d-flex justify-content-center">Esqueci a senha</div>
+    <div class="col d-flex justify-content-center"> <a href="Cadastro.html" target="_blank">Não tem conta? Se
+        cadastre</a></div>
+  </div>
+  <footer class="d-flex justify-content-center">
+    <p class="footer"><a class="colorContato" href="">Entre em contato</a></p>
+  </footer>
+</body>
+
+</html>

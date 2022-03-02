@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica;
+}
+.btn{
+    background-color: #40E0D0;
+}
+.navbar{
+    padding-left: 12px;
+}
+.navbar-brand{
+    color:#40E0D0 ;
+}
+.tabelas{
+    margin-top: 12px;
+}
+.table{
+    background-color: #C4C4C4;
+}

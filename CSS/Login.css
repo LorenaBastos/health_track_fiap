@@ -1,0 +1,20 @@
+body{
+    background-color: #40E0D0;
+    font-family: Arial, Helvetica;
+}
+
+.botao{
+    border-radius: 0.90rem !important;
+    width: 15rem;
+}
+
+.btn-primary{
+    background-color: #3B5998;
+}
+
+.footer{
+    padding-top: 12.1rem; 
+}
+.colorContato{
+    color: white;
+}

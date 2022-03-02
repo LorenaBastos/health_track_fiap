@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Página Inicial</title>
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="CSS/Pagina-Inicial.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm rounded">
+    <a class="navbar-brand" style="color:#40E0D0;" href="#">Health Track</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse itens" id="navbarNavAltMarkup">
+      <div class="navbar-nav gap-4">
+        <a class="nav-item nav-link disabled" href="#">Página Inicial </a>
+        <a class="nav-item nav-link" href="#">Exercícios</a>
+        <a class="nav-item nav-link" href="Alimentação.html" target="_blank">Alimentação</a>
+        <a class="nav-item nav-link" href="Login.html">Sair</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container d-flex justify-content-center my-4 me-2">
+    <div class="row gap-4">
+      <div class="foto m-2 rounded-circle col-2">
+        <h4>Foto</h4>
+        <div class="mt-5">
+          <input class="arquivo form-control-file" type="file" id="FotoDePerfil" name="FotoDePerfil">
+        </div>
+      </div>
+      <div class="m-4 col">
+        <div class="row row-cols-1">
+          <div class="col">
+            Maria Barros Souza
+          </div>
+          <div class="col">
+            20 anos
+          </div>
+          <div class="col">
+            1,75 cm
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-4">
+        <div class="card shadow-sm bg-body rounded">
+          <div class="card-body">
+            <h5 class="card-title">IMC</h5>
+            <p class="card-text">21.6</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Última atualização: 15/08</small>
+            <span class="fa fa-edit"></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-4">
+        <div class="card shadow-sm bg-body rounded">
+          <div class="card-body">
+            <h5 class="card-title">Peso</h5>
+            <p class="card-text">70 Kg</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Última atualização: 15/08</small>
+            <span class="fa fa-edit"></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-4">
+        <div class="card shadow-sm bg-body rounded">
+          <div class="card-body">
+            <h5 class="card-title">Pressão Arterial</h5>
+            <p class="card-text">120</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Última atualização: 15/08</small>
+            <span class="fa fa-edit"></span>
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>
